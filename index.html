@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Engenharia de Software - Aula04</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p>
+						Universidade do Estado de Mato Grosso <br />
+						<em>Campus</em> Cáceres <br />
+						Faculdade de Ciências Exatas <br/>
+						Bacharelado em Ciência da Computação
+					</p>
+					<br />
+					<h3>Engenharia de Software I</h3>
+					<h4>Capítulo 2 - Processo de Software (Sommerville)</h4>
+					<br />
+					<p>
+						Leonardo Luan Martins da Silva <br />
+						14 de março de 2019
+					</p>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3>Definição</h3>
+					<p>Um processo de software é um conjunto de atividades relacionadas que levam à produção de um produto de software.</p>
+				</section>
+
+				<section style="text-align: left">
+					<h3>Atividades fundamentais</h3>
+
+					<section>
+						<ul>
+							<li><strong>Especificação de software:</strong><br/>A funcionalidade do software e as restrições a seu funcionamento devem ser definidas.</li>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li><strong>Projeto e implementação de software:</strong><br/>O software deve ser produzido para atender às especificações.</li>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li><strong>Validação de software:</strong><br/>O software deve ser validado para garantir que atenda às demandas do cliente.</li>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li><strong>Evolução de software:</strong><br/>O software deve evoluir para atender às necessidades de mudança dos clientes.</li>
+						</ul>
+					</section>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3>Produtos</h3>
+					<p>São os resultados de uma das atividades do processo. Por exemplo, o resultado da atividade de pro­jeto de arquitetura pode ser um modelo da arquitetura de software.</p>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3>Papéis</h3>
+					<p>Refletem as responsabilidades das pessoas envolvidas no processo. Exemplos de papéis são: gerente de projeto, gerente de configuração, programador etc.</p>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3 style="margin-bottom: 50px">Categorias de processo</h3>
+					<ul>
+						<li style="margin-bottom: 50px"><strong>Processos dirigidos a planos:</strong><br/>Todas as atividades são planejadas com antecedência, e o progresso é avaliado por compa­ração com o planejamento inicial.</li>
+						<li><strong>Processos ágeis:</strong><br/>O planejamento é gradativo, e é mais fácil alterar o processo de maneira a refletir as necessidades de mudança dos clientes.</li>
+					</ul>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3 style="margin-bottom: 50px">Modelos de processo de software</h3>
+					<h3 style="margin-bottom: 50px">Modelo cascata</h3>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 50px">Foi o primeiro modelo do processo publicado</li>
+							<li style="margin-bottom: 50px">Também conhecido como <em>ciclo de vida de software</em></li>
+							<li>É o principal exemplo de processo dirigido a planos</li>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 10px">Estágios</li>
+							<ul>
+								<li>Análise e definição de requisitos;</li>
+								<li>Projeto de sistema e software;</li>
+								<li>Implantação e teste unitário;</li>
+								<li>Integração e teste de sistema;</li>
+								<li>Operação e manutenção.</li>
+							</ul>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 20px">Ao fim de cada estágio, um documento é assinado para comprovar a aprovação e finalização do estágio.</li>
+							<li style="margin-bottom: 20px"><strong>O estágio seguinte não deve ser iniciado até que a fase anterior seja concluída.</strong></li>
+							<li>O processo é visível para o gerente, porém é inflexível aos clientes.</li>
+						</ul>
+					</section>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3 style="margin-bottom: 50px">Modelos de processo de software</h3>
+					<h3 style="margin-bottom: 50px">Desenvolvimento incremental</h3>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 30px">Baseado na idéia de produzir pequenas implementações e expô-las aos clientes e usuários.</li>
+							<li>Atividades de especificação, desenvolvimento e validação são intercaladas, e não sepa­radas, com rápido feedback entre todas as atividades.</li>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li>Reflete a maneira como resolvemos os problemas reais. Raramente elaboramos uma solução completa do problema com antecedência; geralmente movemo-nos passo a passo em direção a uma solução, re­cuando quando percebemos que cometemos um erro.</li>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 30px">Ao desenvolver um software de forma incremental, é mais barato e mais fácil fazer mudanças no software durante seu desenvolvimento.</li>
+							<li>Cada incremento ou versão do sistema incorpora alguma funcionalidade necessária para o cliente.</li>
+						</ul>
+					</section>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3 style="margin-bottom: 20px">Atividades do processo</h3>
+					<h3 style="margin-bottom: 50px">Especificação de software</h3>
+
+					<section>
+						<ul>
+							<li>Definição:<br/><em>“Especificação de software ou engenharia de requisitos é o processo de compreensão e definição dos serviços requisitados do sistema e identificação de restrições relativas à operação e ao desenvolvimento do sistema.”</em></li>
+						</ul>
+					</section>
+
+					<section>
+						<ul>
+							<li style="margin-bottom: 30px">Erros nessa fase ine­vitavelmente geram problemas no projeto e na implementação do sistema.</li>
+							<li>A engenharia de requisitos (Figura 2.4, pág. 24) tem como objetivo produzir um documento de requisitos acordados que especifica um sistema que satisfaz os requisitos dos stokeholders.</li>
+						</ul>
+					</section>
+
+					<section style="text-align: left;font-size: 85%" data-transition="none">
+						<ul>
+							<li style="margin-bottom: 30px">Atividades da engenharia de requisitos:</li>
+							<ol>
+								<li><strong>Estudo de viabilidade:</strong><br/><br/>É feita uma <strong>estimativa</strong> acerca da possibilidade de se satisfazerem as necessidades do usuário identificado usando-se <strong>tecnologias atuais de software e hardware</strong>. O estudo considera se o sistema proposto será <strong>rentável</strong> a partir de um ponto de vista de negócio e se ele pode ser desenvolvido no âmbito das atuais <strong>restrições orçamentais</strong>.</li>
+							</ol>
+						</ul>
+					</section>
+
+					<section style="text-align: left;font-size: 85%" data-transition="none">
+						<ul>
+							<li style="margin-bottom: 30px">Atividades da engenharia de requisitos:</li>
+							<ol start="2">
+								<li><strong>Elicitação e análise de requisitos:</strong><br/><br/>Esse é o processo de <strong>derivação dos requisitos</strong> do sistema por meio da <strong>observa­ção dos sistemas existentes</strong>, além de <strong>discussões</strong> com os potenciais usuários e compradores, análise de tarefas, entre outras etapas.</li>
+							</ol>
+						</ul>
+					</section>
+
+					<section style="text-align: left;font-size: 85%" data-transition="none">
+						<ul>
+							<li style="margin-bottom: 30px">Atividades da engenharia de requisitos:</li>
+							<ol start="3">
+								<li><strong>Especificação de requisitos:</strong><br/><br/>É a atividade de <strong>traduzir</strong> as informações obtidas durante a atividade de análise em um documento que define um conjunto de requisitos.</li>
+							</ol>
+						</ul>
+					</section>
+
+					<section style="text-align: left;font-size: 85%" data-transition="none">
+						<ul>
+							<li style="margin-bottom: 30px">Atividades da engenharia de requisitos:</li>
+							<ol start="4">
+								<li><strong>Validação de requisitos:</strong><br/><br/>Essa atividade verifica os requisitos quanto ao <strong>realismo, consistência e completude</strong>. Durante esse processo, os erros no documento de requisitos são inevitavelmente descobertos e corrigidos.</li>
+							</ol>
+						</ul>
+					</section>
+				</section>
+
+				<section style="text-align: center; font-size: 90%">
+					<h2>Atividades</h2>
+					<br />
+					<h4>Próxima aula...</h4>
+					<br />
+					<h4>Obrigado! Até às 11h00</h4>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				mouseWheel: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+			Reveal.configure({ slideNumber: 'c/t' });
+		</script>
+	</body>
+</html>
